@@ -262,3 +262,4 @@ C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\Microsoft.AspNetCor
 C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.sourcelink.json

@@ -15,3 +15,4 @@ C:\Users\ecrea\source\repos\UcakRez\DataAccessLayer\obj\Debug\net6.0\refint\Data
 C:\Users\ecrea\source\repos\UcakRez\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
 C:\Users\ecrea\source\repos\UcakRez\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.genruntimeconfig.cache
 C:\Users\ecrea\source\repos\UcakRez\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
+C:\Users\ecrea\source\repos\UcakRez\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.sourcelink.json

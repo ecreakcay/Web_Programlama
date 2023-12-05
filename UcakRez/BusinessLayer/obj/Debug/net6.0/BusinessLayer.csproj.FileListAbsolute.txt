@@ -17,3 +17,4 @@ C:\Users\ecrea\source\repos\UcakRez\BusinessLayer\obj\Debug\net6.0\refint\Busine
 C:\Users\ecrea\source\repos\UcakRez\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
 C:\Users\ecrea\source\repos\UcakRez\BusinessLayer\obj\Debug\net6.0\BusinessLayer.genruntimeconfig.cache
 C:\Users\ecrea\source\repos\UcakRez\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll
+C:\Users\ecrea\source\repos\UcakRez\BusinessLayer\obj\Debug\net6.0\BusinessLayer.sourcelink.json
