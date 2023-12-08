@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UcakRez")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b290537c8cd6b00c8f08310a04bba909380e320")]
 [assembly: System.Reflection.AssemblyProductAttribute("UcakRez")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UcakRez")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
