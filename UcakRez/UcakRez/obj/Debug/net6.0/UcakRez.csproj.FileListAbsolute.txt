@@ -295,3 +295,7 @@ C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\runtimes\win\lib\ne
 C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\MailKit.dll
 C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\MimeKit.dll
 C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\System.Formats.Asn1.dll
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\DTOLayer.dll
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\DTOLayer.pdb
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
