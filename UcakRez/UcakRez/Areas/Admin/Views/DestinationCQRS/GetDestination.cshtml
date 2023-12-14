@@ -1,0 +1,21 @@
+﻿@model GetDestinationByIDQueryResult
+@{
+    ViewData["Title"] = "GetDestination";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Klinik Randevu Düzenleme Sayfası</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="DestinationID" />
+    <label>Klinik</label>
+    <input type="text" asp-for="City" class="form-control" />
+    <br />
+    <label>Randevu Süresi</label>
+    <input type="text" asp-for="DayNight" class="form-control" />
+    <br />
+    <label>Fiyat</label>
+    <input type="text" asp-for="Price" class="form-control" />
+    <br />
+    <button class="btn btn-outline-success">Randevu Bilgilerini Güncelle</button>
+</form>

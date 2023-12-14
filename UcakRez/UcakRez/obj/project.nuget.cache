@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gd5WF2vUVg9t7XPvHulfM16Eonoh6okIQ/iNtauEKbAA1K3x9KLf6sGLe+EKHzESdMMtGV/E8RgSQoC4aj1HZw==",
+  "dgSpecHash": "VjLDqEd9U06C4EAoVR3R/tgOkokKumKPqPUxhKRB6uMMb7OoyRXpSQHqWvd9lVOMkEm93MIUb9eP+ldIrKuYZw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ecrea\\source\\repos\\UcakRez\\UcakRez\\UcakRez.csproj",
   "expectedPackageFiles": [
@@ -69,6 +69,9 @@
     "C:\\Users\\ecrea\\.nuget\\packages\\irony.netcore\\1.0.11\\irony.netcore.1.0.11.nupkg.sha512",
     "C:\\Users\\ecrea\\.nuget\\packages\\itextsharp.lgplv2.core\\3.4.14\\itextsharp.lgplv2.core.3.4.14.nupkg.sha512",
     "C:\\Users\\ecrea\\.nuget\\packages\\mailkit\\4.3.0\\mailkit.4.3.0.nupkg.sha512",
+    "C:\\Users\\ecrea\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\ecrea\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\ecrea\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\ecrea\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\ecrea\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\ecrea\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",
