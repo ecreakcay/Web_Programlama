@@ -52,6 +52,11 @@ builder.Services.AddControllersWithViews(opt =>
 });
 builder.Services.AddMvc();
 
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Login/SingIn";
+});
+
 var app = builder.Build();
 // Configure the HTTP request pipeline.
 
