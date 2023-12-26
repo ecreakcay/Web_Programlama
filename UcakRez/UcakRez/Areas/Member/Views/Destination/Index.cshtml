@@ -1,4 +1,4 @@
-﻿@using EntityLayer.Concrete
+﻿﻿@using EntityLayer.Concrete
 @model List<Destination>
 @{
     ViewData["Title"] = "Index";
@@ -15,7 +15,7 @@
         <th>Fiyat</th>
         <th>Detaylar</th>
     </tr>
-    @foreach(var item in Model)
+    @foreach (var item in Model)
     {
         <tr>
             <td>@item.DestinationID</td>
@@ -28,4 +28,3 @@
     }
 
 </table>
-

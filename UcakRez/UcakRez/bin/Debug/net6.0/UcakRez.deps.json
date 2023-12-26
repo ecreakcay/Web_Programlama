@@ -30,6 +30,14 @@
         },
         "runtime": {
           "UcakRez.dll": {}
+        },
+        "resources": {
+          "en/UcakRez.resources.dll": {
+            "locale": "en"
+          },
+          "tr/UcakRez.resources.dll": {
+            "locale": "tr"
+          }
         }
       },
       "AutoMapper/12.0.1": {

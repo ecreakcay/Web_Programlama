@@ -3,8 +3,14 @@ using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
 using FluentValidation.AspNetCore;
 using MediatR;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using Microsoft.AspNetCore.Mvc.Razor;
+using Microsoft.Extensions.Options;
+using System.Globalization;
 using UcakRez.CQRS.Handlers.DestinationHandlers;
 using UcakRez.CQRS.Handlers.GuideHandlers;
 using UcakRez.Models;
@@ -27,11 +33,23 @@ builder.Services.AddLogging(x =>
     x.AddDebug();
 });
 
+
 // Add services to the container.
 
 builder.Services.AddDbContext<Context>();
 
-builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>().AddEntityFrameworkStores<Context>();
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>().AddErrorDescriber<CustomIdentityValidator>().AddTokenProvider<DataProtectorTokenProvider<AppUser>>(TokenOptions.DefaultProvider).AddEntityFrameworkStores<Context>();
+
+//builder.Services.AddAuthentication(options =>
+//{     options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+//    options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+//    options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+//}).AddCookie(options =>
+//{
+//    options.LoginPath = "/Login/SignIn";
+//    options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+//    options.SlidingExpiration = true;
+//});
 
 builder.Services.AddHttpClient();
 
@@ -50,12 +68,26 @@ builder.Services.AddControllersWithViews(opt =>
 	.Build();
 	opt.Filters.Add(new AuthorizeFilter(policy));
 });
-builder.Services.AddMvc();
+
+var builderr = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllersWithViews().AddViewLocalization();
+
+builder.Services.AddLocalization(opt =>
+{
+    opt.ResourcesPath = "Resources";
+    
+});
+
+
+builder.Services.AddMvc().AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix).AddDataAnnotationsLocalization();
 
 builder.Services.ConfigureApplicationCookie(options =>
 {
-    options.LoginPath = "/Login/SingIn";
+    options.LoginPath = "/Login/SignIn";
+    
 });
+
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.
@@ -76,6 +108,11 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+
+
+
+
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
@@ -94,6 +131,16 @@ app.UseEndpoints(endpoints =>
       name: "areas",
       pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
     );
+});
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+        name: "areas",
+        pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
 });
 
 

@@ -302,3 +302,12 @@ C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\AutoMapper.Extensio
 C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\MediatR.dll
 C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\MediatR.Contracts.dll
 C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\en\UcakRez.resources.dll
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\bin\Debug\net6.0\tr\UcakRez.resources.dll
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.Information.Index.en.resources
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.Information.Index.tr.resources
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.csproj.GenerateResource.cache
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\en\UcakRez.resources.dll
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\tr\UcakRez.resources.dll
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Shared._UserLayout.en.resources
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Shared._UserLayout.tr.resources

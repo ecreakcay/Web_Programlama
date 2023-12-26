@@ -47,7 +47,7 @@ namespace UcakRez.Areas.Member.Controllers
         public IActionResult NewReservation()
         {
             List<SelectListItem> values = (from x in destinationManager.TGetList()
-                                             select new SelectListItem
+                                           select new SelectListItem
                                            {
                                                Text = x.City,
                                                Value = x.DestinationID.ToString()
@@ -62,7 +62,8 @@ namespace UcakRez.Areas.Member.Controllers
             p.AppUserId = 4;
             p.Status = "Onay bekliyor";
             reservationManager.TAdd(p);
-            return RedirectToAction("MyCurrentReservation");
+            return Redirect("/Member/Reservation/MyApprovalReservation");
         }
+
     }
 }

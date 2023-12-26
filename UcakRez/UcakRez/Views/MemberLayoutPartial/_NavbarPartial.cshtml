@@ -1,4 +1,5 @@
-﻿<aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3 " id="sidenav-main">
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+<aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3 " id="sidenav-main">
     <div class="sidenav-header">
         <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
         <a class="navbar-brand m-0" href="https://demos.creative-tim.com/soft-ui-dashboard/pages/dashboard.html" target="_blank">
@@ -26,7 +27,7 @@
                             </g>
                         </svg>
                     </div>
-                    <span class="nav-link-text ms-1">Dashboard</span>
+                    <span class="nav-link-text ms-1">@localizer["Dashboard"]</span>
                 </a>
             </li>
             <li class="nav-item">
@@ -46,7 +47,7 @@
                             </g>
                         </svg>
                     </div>
-                    <span class="nav-link-text ms-1">Klinikler</span>
+                    <span class="nav-link-text ms-1">@localizer["Klinikler"]</span>
                 </a>
             </li>
             <li class="nav-item">
@@ -66,7 +67,7 @@
                             </g>
                         </svg>
                     </div>
-                    <span class="nav-link-text ms-1">Profilim</span>
+                    <span class="nav-link-text ms-1">@localizer["Profilim"]</span>
                 </a>
             </li>
             <li class="nav-item">
@@ -87,7 +88,7 @@
                             </g>
                         </svg>
                     </div>
-                    <span class="nav-link-text ms-1">Aktif Randevularım</span>
+                    <span class="nav-link-text ms-1">@localizer["Aktif Randevularım"]</span>
                 </a>
             </li>
             <li class="nav-item">
@@ -108,7 +109,7 @@
                             </g>
                         </svg>
                     </div>
-                    <span class="nav-link-text ms-1">Onay Bekleyenler</span>
+                    <span class="nav-link-text ms-1">@localizer["Onay Bekleyenler"]</span>
                 </a>
             </li>
             <li class="nav-item">
@@ -129,7 +130,7 @@
                             </g>
                         </svg>
                     </div>
-                    <span class="nav-link-text ms-1">Geçmiş Randevularım</span>
+                    <span class="nav-link-text ms-1">@localizer["Geçmiş Randevularım"]</span>
                 </a>
             </li>
             <li class="nav-item">
@@ -150,7 +151,7 @@
                             </g>
                         </svg>
                     </div>
-                    <span class="nav-link-text ms-1">Yeni Randevularım</span>
+                    <span class="nav-link-text ms-1">@localizer["Yeni Randevularım"]</span>
                 </a>
             </li>
             
@@ -172,7 +173,7 @@
                             </g>
                         </svg>
                     </div>
-                    <span class="nav-link-text ms-1">Çıkış</span>
+                    <span class="nav-link-text ms-1">@localizer["Çıkış"]</span>
                 </a>
             </li>
         </ul>

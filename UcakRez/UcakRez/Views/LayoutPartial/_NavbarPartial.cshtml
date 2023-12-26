@@ -1,4 +1,5 @@
-﻿<header id="site-header" class="fixed-top">
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+<header id="site-header" class="fixed-top">
     <div class="container">
         <nav class="navbar navbar-expand-lg stroke">
             <h1>
@@ -22,9 +23,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/Default/Index/">Ana Sayfa <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">Hakkımızda</a>
-                    </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="/Destination/Index/">Hizmetlerimiz</a>
                     </li>
@@ -34,6 +33,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/Contact/Index/">İletişim</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Admin/Dashboard/Index">Admin Paneli</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Member/Dashboard/Index">Üye Paneli</a>
+                    </li>
+
 
                 </ul>
             </div>

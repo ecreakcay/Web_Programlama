@@ -1,8 +1,9 @@
-﻿@using EntityLayer.Concrete
+﻿﻿@using EntityLayer.Concrete
 @model List<Reservation>
 @{
     ViewData["Title"] = "MyApprovalReservation";
     Layout = "~/Views/Shared/_UserLayout.cshtml";
+int count = 0;
 }
 
 <h1>Onay Bekleyen Randevularım</h1>
@@ -18,8 +19,9 @@
     </tr>
     @foreach (var item in Model)
     {
+        count++;
         <tr>
-            <td>@item.ReservationID</td>
+            <td>@count</td>
             <td>@item.Destination.City</td>
             <td>@item.PersonCount</td>
             <td>@item.ReservationDate</td>
@@ -27,4 +29,3 @@
         </tr>
     }
 </table>
-
