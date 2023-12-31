@@ -2,41 +2,46 @@
 {
     public class BookingExchangeViewModel
     {
-            public Countries_Stat[] countries_stat { get; set; }
-            public string statistic_taken_at { get; set; }
-            public World_Total world_total { get; set; }
+
+            public Dashboarddata dashboardData { get; set; }
+            public Region[] regions { get; set; }
+            public Nationalcasestime[] nationalCasesTimes { get; set; }
         
 
-        public class World_Total
+        public class Dashboarddata
         {
-            public string total_cases { get; set; }
-            public string new_cases { get; set; }
-            public string total_deaths { get; set; }
-            public string new_deaths { get; set; }
-            public string total_recovered { get; set; }
-            public string active_cases { get; set; }
-            public string serious_critical { get; set; }
-            public string total_cases_per_1m_population { get; set; }
-            public string deaths_per_1m_population { get; set; }
-            public string statistic_taken_at { get; set; }
+            public int active { get; set; }
+            public int confirmed { get; set; }
+            public int deaths { get; set; }
+            public int deltaConfirmed { get; set; }
+            public int deltaDeaths { get; set; }
+            public int deltaRecovered { get; set; }
+            public int recovered { get; set; }
+            public string state { get; set; }
+            public string stateCode { get; set; }
+            public object stateNotes { get; set; }
+            public DateTime lastUpdatedTime { get; set; }
         }
 
-        public class Countries_Stat
+        public class Region
         {
-            public string country_name { get; set; }
-            public string cases { get; set; }
-            public string deaths { get; set; }
-            public string region { get; set; }
-            public string total_recovered { get; set; }
-            public string new_deaths { get; set; }
-            public string new_cases { get; set; }
-            public string serious_critical { get; set; }
-            public string active_cases { get; set; }
-            public string total_cases_per_1m_population { get; set; }
-            public string deaths_per_1m_population { get; set; }
-            public string total_tests { get; set; }
-            public string tests_per_1m_population { get; set; }
+            public string state { get; set; }
+            public int stateCode { get; set; }
+            public int confirmed { get; set; }
+            public int active { get; set; }
+            public int recovered { get; set; }
+            public int deaths { get; set; }
+            public DateTime lastUpdatedTime { get; set; }
         }
+
+        public class Nationalcasestime
+        {
+            public int dailyConfirmed { get; set; }
+            public int dailyDeceased { get; set; }
+            public int dailyRecovered { get; set; }
+            public string date { get; set; }
+        }
+
 
 
     }

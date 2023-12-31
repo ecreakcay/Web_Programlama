@@ -309,5 +309,7 @@ C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.V
 C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.csproj.GenerateResource.cache
 C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\en\UcakRez.resources.dll
 C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\tr\UcakRez.resources.dll
-C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Shared._UserLayout.en.resources
-C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Shared._UserLayout.tr.resources
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.Shared._UserLayout.en.resources
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.Shared._UserLayout.tr.resources
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.LayoutPartial._FooterPartial.en.resources
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.LayoutPartial._FooterPartial.tr.resources

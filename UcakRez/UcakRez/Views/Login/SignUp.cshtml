@@ -10,7 +10,6 @@ Author URL: http://w3layouts.com
 -->
 <!DOCTYPE html>
 <html lang="zxx">
-
 <head>
 	<title>Invent Signup Form Responsive Widget Template | Home :: W3layouts</title>
 	<!-- Meta tag Keywords -->
@@ -31,7 +30,7 @@ Author URL: http://w3layouts.com
 	<!--/Style-CSS -->
 	<link rel="stylesheet" href="~/web/css/style.css" type="text/css" media="all" />
 	<!--//Style-CSS -->
-</head>
+</head> 
 
 <body>
 	<!-- /login-section -->
@@ -70,6 +69,7 @@ Author URL: http://w3layouts.com
 							<span asp-validation-for="Surname" class="text-danger"></span>
 
 						</div>
+
 						<div class="form-input">
 							<label>Kullanıcı Adı</label>
 							<input type="text" asp-for="Username" />
@@ -80,6 +80,18 @@ Author URL: http://w3layouts.com
 							<label>Mail</label>
 							<input type="email" asp-for="Mail" />
 							<span asp-validation-for="Mail" class="text-danger"></span>
+
+						</div>
+						<div class="form-input">
+							<label>Cinsiyet</label>
+							<input type="Gender" asp-for="Gender" />
+							<span asp-validation-for="Gender" class="text-danger"></span>
+
+						</div>
+						<div class="form-input">
+							<label>Fotoğraf</label>
+							<input type="file" asp-for="ImageUrl" />
+							<span asp-validation-for="ImageUrl" class="text-danger"></span>
 
 						</div>
 						<div class="form-input">

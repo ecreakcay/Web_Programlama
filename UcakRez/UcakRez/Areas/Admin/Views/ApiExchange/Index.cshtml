@@ -1,27 +1,30 @@
-﻿@model IEnumerable<BookingExchangeViewModel.Countries_Stat>
+﻿@model IEnumerable<BookingExchangeViewModel.Region>
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<h1>Covid-19 Ülke Geneli İyileşme/Ölüm Oranları</h1>
+<h1>Covid-19 İtalya Geneli İyileşme/Ölüm Oranları</h1>
 
 <br />
 
 <table class="table table-striped">
     <tr>
-        <th>Ülke Adı</th>
-        <th>Vaka Sayısı</th>
+        <th>Bölge Adı</th>
+        <th>Onaylanan Vaka Sayısı</th>
+        <th>Aktif Vaka Sayısı</th>
         <th>Toplam İyileşme</th>
         <th>Ölüm</th>
     </tr>
     @foreach (var item in Model)
     {
         <tr>
-            <th>@item.country_name</th>
-            <td>@item.cases</td>
-            <td>@item.total_recovered</td>
+            <th>@item.state</th>
+            <td>@item.confirmed</td>
+            <td>@item.active</td>
+            <td>@item.recovered</td>
             <td>@item.deaths</td>
+            
         </tr>
     }
 </table>

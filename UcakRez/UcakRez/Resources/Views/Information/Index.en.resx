@@ -117,28 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Aktif Randevularım" xml:space="preserve">
-    <value>Active Reservations</value>
+  <data name="Bize Ulaşın" xml:space="preserve">
+    <value>Contact Us</value>
   </data>
-  <data name="Dashboard" xml:space="preserve">
-    <value>Dashboard</value>
+  <data name="Bugün Nasılsın?" xml:space="preserve">
+    <value>How are you?</value>
   </data>
-  <data name="Geçmiş Randevularım" xml:space="preserve">
-    <value>Old Reservations</value>
-  </data>
-  <data name="Klinikler" xml:space="preserve">
-    <value>Clinics</value>
-  </data>
-  <data name="Onay Bekleyenler" xml:space="preserve">
-    <value>Approval Reservations</value>
-  </data>
-  <data name="Profilim" xml:space="preserve">
-    <value>My Profile</value>
-  </data>
-  <data name="Yeni Randevularım" xml:space="preserve">
-    <value>NewReservations</value>
-  </data>
-  <data name="Çıkış" xml:space="preserve">
-    <value>Exit</value>
+  <data name="Merhaba" xml:space="preserve">
+    <value>Hello</value>
   </data>
 </root>

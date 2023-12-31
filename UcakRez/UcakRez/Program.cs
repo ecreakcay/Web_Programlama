@@ -109,9 +109,14 @@ app.UseRouting();
 app.UseAuthorization();
 
 
+var supportedCultures = new[]
+{
+	"tr" , "en"
+};
 
+var localizationOptions = new RequestLocalizationOptions().SetDefaultCulture(supportedCultures[0]).AddSupportedCultures(supportedCultures).AddSupportedUICultures(supportedCultures);
 
-
+app.UseRequestLocalization(localizationOptions);
 
 app.MapControllerRoute(
     name: "default",

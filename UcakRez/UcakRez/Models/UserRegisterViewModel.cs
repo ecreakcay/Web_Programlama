@@ -16,6 +16,12 @@ namespace UcakRez.Models
 		[Required(ErrorMessage = "Lütfen mail adresinizi giriniz")]
 		public string Mail { get; set; }
 
+		[Required(ErrorMessage = "Lütfen cinsiyet giriniz")]
+		public string Gender { get; set; }
+
+		[Required(ErrorMessage = "Lütfen fotoğraf ekleyiniz")]
+		public string ImageUrl { get; set; }
+
 		[Required(ErrorMessage = "Lütfen şifrenizi giriniz")]
 		public string Password { get; set; }
 

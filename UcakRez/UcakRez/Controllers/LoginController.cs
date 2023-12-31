@@ -22,7 +22,7 @@ namespace UcakRez.Controllers
             _signInManager = signInManager;
         }
 
-        [HttpGet]
+        [HttpGet] 
         public IActionResult SignUp()
         {
             return View();
@@ -36,7 +36,9 @@ namespace UcakRez.Controllers
                 Name = p.Name,
                 Surname = p.Surname,
                 Email = p.Mail,
-                UserName = p.Username
+                UserName = p.Username,
+                Gender = p.Gender,
+                ImageUrl=p.ImageUrl
             };
 
             if(p.Password == p.ConfirmPassword)
@@ -86,11 +88,6 @@ namespace UcakRez.Controllers
             return View();
         }
 
-        [HttpGet]
-        public async Task<IActionResult> LogOut()
-        {
-            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            return RedirectToAction("Index", "Login");
-        }
+        
     }
 }

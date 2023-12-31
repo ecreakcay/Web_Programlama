@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+wJlm2QrMA7JxIKdzHdicT+bMgk+8UyA3wNMz4sC1mk=",
+  "Hash": "zmSF21RvcVfJuQGleaUA2d3XeeSJZJR4t4eB/K7sPRk=",
   "Source": "UcakRez",
   "BasePath": "_content/UcakRez",
   "Mode": "Default",
@@ -56236,6 +56236,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\userimages\\0f89e319-867a-41c8-bafd-20c1d5a0546b.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ecrea\\source\\repos\\UcakRez\\UcakRez\\wwwroot\\userimages\\68cac025-41b6-4907-9502-6d1d9ef61418.jpg",
+      "SourceId": "UcakRez",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ecrea\\source\\repos\\UcakRez\\UcakRez\\wwwroot\\",
+      "BasePath": "_content/UcakRez",
+      "RelativePath": "userimages/68cac025-41b6-4907-9502-6d1d9ef61418.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userimages\\68cac025-41b6-4907-9502-6d1d9ef61418.jpg"
     },
     {
       "Identity": "C:\\Users\\ecrea\\source\\repos\\UcakRez\\UcakRez\\wwwroot\\web\\css\\style.css",
