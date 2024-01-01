@@ -21,31 +21,40 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/Default/Index/">Ana Sayfa <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/Default/Index/">@localizer["Ana Sayfa"] <span class="sr-only">(current)</span></a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="/Destination/Index/">Hizmetlerimiz</a>
+                        <a class="nav-link" href="/Destination/Index/">@localizer["Hizmetlerimiz"]</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/Guide/Index/">Doktorlarımız</a>
+                        <a class="nav-link" href="/Guide/Index/">@localizer["Doktorlarımız"]</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/Contact/Index/">İletişim</a>
+                        <a class="nav-link" href="/Contact/Index/">@localizer["İletişim"]</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/Admin/Dashboard/Index">Admin Paneli</a>
+                        <a class="nav-link" href="/Admin/Dashboard/Index">@localizer["Admin Paneli"]</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/Member/Dashboard/Index">Üye Paneli</a>
+                        <a class="nav-link" href="/Member/Dashboard/Index">@localizer["Üye Paneli"]</a>
                     </li>
+                     <form action="/Default/Index" method="get">
+                        <select id="languageDropdown" name="Culture">
+                            <option value="tr">Türkçe</option>
+                            <option value="en">English</option>
+                        </select>
+                        <input type="submit" value="Seç">
+                    </form> 
+                    
+                   
 
 
                 </ul>
             </div>
-            <div class="d-lg-block d-none">
-                <a href="contact.html" class="btn btn-style btn-secondary">Randevu Al</a>
-            </div>
+            @* <div class="d-lg-block d-none">
+                <a href="/Member/Reservation/NewReservation/" class="btn btn-style btn-secondary">@localizer["Randevu Al"]</a>
+            </div> *@
             <!-- toggle switch for light and dark theme -->
             <div class="mobile-position">
                 <nav class="navigation">

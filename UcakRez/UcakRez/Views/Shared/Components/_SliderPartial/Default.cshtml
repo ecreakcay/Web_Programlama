@@ -1,4 +1,5 @@
-﻿﻿<section class="w3l-main-slider" id="home">
+﻿@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
+﻿<section class="w3l-main-slider" id="home">
     <div class="banner-content">
         <div id="demo-1"
              data-zs-src='["https://fotolifeakademi.com/uploads/2020/04/manzara-fotografi-cekmek.jpg", "https://www.arttablo.com/upload/U-manzara-dag-bulut-sonbahar-kanvas-tablo1446899210-800.jpg","https://image.milimaj.com/i/milliyet/75/0x0/6059c1cf55427e11044c709c.jpg", "https://static.wixstatic.com/media/f20847_8ea723136b424d08946c499fca2ea82c~mv2.jpg/v1/fill/w_480,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f20847_8ea723136b424d08946c499fca2ea82c~mv2.jpg"]'
@@ -6,21 +7,21 @@
             <div class="demo-inner-content">
                 <div class="container">
                     <div class="banner-infhny">
-                        <h3>Randevu almak artık çok kolay</h3>
-                        <h6 class="mb-3">Hemen şimdi oluştur</h6>
+                        <h3>@localizer["Randevu almak artık çok kolay"]</h3>
+                        <h6 class="mb-3">@localizer["Hemen şimdi oluştur"]</h6>
                         <div class="flex-wrap search-wthree-field mt-md-5 mt-4">
                             <form action="#" method="post" class="booking-form">
                                 <div class="row book-form">
                                     <div class="form-input col-md-4 mt-md-0 mt-3">
 
                                         <select name="selectpicker" class="selectpicker">
-                                            <option value="">Branşlar</option>
-                                            <option value="africa">Dahiliye</option>
-                                            <option value="america">Kardiyoloji</option>
-                                            <option value="asia">Cildiye</option>
-                                            <option value="eastern-europe">KBB</option>
-                                            <option value="europe">Genel Cerrahi</option>
-                                            <option value="south-america">Göğüs Hastalıkları</option>
+                                            <option value="">@localizer["Branşlar"]</option>
+                                            <option value="africa">@localizer["Dahiliye"]</option>
+                                            <option value="america">@localizer["Kardiyoloji"]</option>
+                                            <option value="asia">@localizer["Cildiye"]</option>
+                                            <option value="eastern-europe">@localizer["KBB"]</option>
+                                            <option value="europe">@localizer["Genel Cerrahi"]</option>
+                                            <option value="south-america">@localizer["Göğüs Hastalıkları"]</option>
                                         </select>
 
                                     </div>
@@ -29,10 +30,9 @@
                                         <input type="date" name="" placeholder="Date" required="">
                                     </div>
                                     <div class="bottom-btn col-md-4 mt-md-0 mt-3">
-                                        <button class="btn btn-style btn-secondary">
-                                            <span class="fa fa-search mr-3"
-                                                  aria-hidden="true"></span>Ara
-                                        </button>
+                                        <a href="/Member/Reservation/NewReservation/" class="btn btn-style btn-secondary">
+                                            <span class="fa fa-search mr-3" aria-hidden="true"></span>@localizer["Ara"]
+                                        </a>
                                     </div>
                                 </div>
                             </form>

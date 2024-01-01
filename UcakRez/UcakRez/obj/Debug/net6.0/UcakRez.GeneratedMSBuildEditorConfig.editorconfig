@@ -354,10 +354,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Rlc3RpbmF0aW9uU3RhdGlzdGljXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ecrea/source/repos/UcakRez/UcakRez/Views/Shared/Components/_Feature/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0ZlYXR1cmVcRGVmYXVsdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/ecrea/source/repos/UcakRez/UcakRez/Views/Shared/Components/_GuideDetails/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0d1aWRlRGV0YWlsc1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -376,26 +372,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ecrea/source/repos/UcakRez/UcakRez/Views/Shared/Components/_MemberLayoutHeaderContent/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dEhlYWRlckNvbnRlbnRcRGVmYXVsdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ecrea/source/repos/UcakRez/UcakRez/Views/Shared/Components/_MemberLayoutHead/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dEhlYWRcRGVmYXVsdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ecrea/source/repos/UcakRez/UcakRez/Views/Shared/Components/_MemberLayoutLanguages/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dExhbmd1YWdlc1xEZWZhdWx0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ecrea/source/repos/UcakRez/UcakRez/Views/Shared/Components/_MemberLayoutNavbar/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dE5hdmJhclxEZWZhdWx0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ecrea/source/repos/UcakRez/UcakRez/Views/Shared/Components/_MemberLayoutSearch/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dFNlYXJjaFxEZWZhdWx0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ecrea/source/repos/UcakRez/UcakRez/Views/Shared/Components/_MemberLayoutSidebar/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX01lbWJlckxheW91dFNpZGViYXJcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ecrea/source/repos/UcakRez/UcakRez/Views/Shared/Components/_MemberStatistic/Default.cshtml]
@@ -422,10 +398,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1N0YXRpc3RpY3NcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ecrea/source/repos/UcakRez/UcakRez/Views/Shared/Components/_SubAbout/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1N1YkFib3V0XERlZmF1bHQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/ecrea/source/repos/UcakRez/UcakRez/Views/Shared/Components/_Testimonial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Rlc3RpbW9uaWFsXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -440,10 +412,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ecrea/source/repos/UcakRez/UcakRez/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ecrea/source/repos/UcakRez/UcakRez/Views/Shared/_MemberLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW1iZXJMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ecrea/source/repos/UcakRez/UcakRez/Views/Shared/_UILayout.cshtml]

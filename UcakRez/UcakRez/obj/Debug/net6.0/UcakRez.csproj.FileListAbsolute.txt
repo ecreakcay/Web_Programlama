@@ -313,3 +313,13 @@ C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.V
 C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.Shared._UserLayout.tr.resources
 C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.LayoutPartial._FooterPartial.en.resources
 C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.LayoutPartial._FooterPartial.tr.resources
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.LayoutPartial._NavbarPartial.en.resources
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.LayoutPartial._NavbarPartial.tr.resources
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.Shared.Components._SliderPartial.Default.en.resources
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.Shared.Components._SliderPartial.Default.tr.resources
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.Shared.Components._PopularDestinations.Default.en.resources
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.Shared.Components._PopularDestinations.Default.tr.resources
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.Shared.Components._Statistics.Default.en.resources
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.Shared.Components._Statistics.Default.tr.resources
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.Shared.Components._Testimonial.Default.en.resources
+C:\Users\ecrea\source\repos\UcakRez\UcakRez\obj\Debug\net6.0\UcakRez.Resources.Views.Shared.Components._Testimonial.Default.tr.resources
